@@ -1,0 +1,453 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Home page of ShopApotheke",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-07-22T13:40:06.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5681257600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Valid Login",
+        "description": "",
+        "id": "login-tests;valid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 383221200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 566001400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"swathi0218@gmail.com\" and \"swathi12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swathi0218@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"swathi12\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147277654100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42984200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_hopme_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Home page of ShopApotheke",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-07-22T13:42:40.446Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3505400600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "login-tests;invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 373940200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3015476900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters \"\" and \"gsr@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"gsr@12\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181704659800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30043965600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user gets error message",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_gets_error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Home page of ShopApotheke",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-07-22T13:46:19.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4873240500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Invalid Login",
+        "description": "",
+        "id": "login-tests;invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 531871100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1697000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters \"swathi0218@gmail.com\" and \"gsr@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swathi0218@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"gsr@12\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142428537700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30397004800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user gets error message",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_gets_error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Home page of ShopApotheke",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-07-22T13:49:19.070Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7019365800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Change Password",
+        "description": "",
+        "id": "login-tests;change-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 455352200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2082447200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters \"swathi0218@gmail.com\" and \"swathi12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swathi0218@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"swathi12\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118090687100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_hopme_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1030643000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user click on change password",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_click_on_change_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2630442700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters new \"gsr@12\" and \"swathi12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gsr@12\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"swathi12\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_new_newpassword_and_oldpassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2856102100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user logouts and login",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_logouts_and_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306532300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enters \"swathi0218@gmail.com\" and \"gsr@12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swathi0218@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"gsr@12\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_Password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103808976100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199001800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_hopme_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login tests",
+    "description": "  As Customer B2B2B, I can login to ShopApotheke",
+    "id": "login-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginTests.feature",
+    "tags": []
+  }
+]
