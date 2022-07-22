@@ -63,25 +63,10 @@ public class ConfigFileReader {
                 return DriverType.CHROME;
             case "firefox":
                 return DriverType.FIREFOX;
-            case "edge":
-                return DriverType.EDGE;
-            case "safari":
-                return DriverType.SAFARI;
-            default:
+                        default:
                 throw new RuntimeException("Browser name key value in configuration file is not matched: " + browserName);
         }
     }
 
-//    public EnvironmentType getEnvironment() {
-//        String environmentName = properties.getProperty("environment");
-//
-//        switch (environmentName) {
-//            case "local":
-//                return EnvironmentType.LOCAL;
-//            case "remote":
-//                return EnvironmentType.REMOTE;
-//            default:
-//                throw new RuntimeException("Environment type key value in configuration file is not matched: " + environmentName);
-//        }
-//    }
+
 }

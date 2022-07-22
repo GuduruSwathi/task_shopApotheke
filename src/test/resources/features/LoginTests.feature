@@ -1,5 +1,5 @@
 Feature: Login tests
-  As Customer B2B2B, I can login to Bhinneka.com
+  As Customer B2B2B, I can login to ShopApotheke
 
   Background: Home page of ShopApotheke
   
