@@ -43,7 +43,7 @@ public class LoginSteps {
         if(scenario.isFailed()) {
             try {
                 byte[] screenshot = ((TakesScreenshot)testContext.getDriverManager().getDriver()).getScreenshotAs(OutputType.BYTES);
-                scenario.attach(screenshot, "image/png", "screenshot1");
+                scenario.attach(screenshot, "image/png", "screenshot");
             } catch (WebDriverException noSupportScreenshot) {
                 System.err.println(noSupportScreenshot.getMessage());
             }
